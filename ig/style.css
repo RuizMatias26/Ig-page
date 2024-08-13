@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+}
+
+:root{
+    --black: rgb(0,0,0);
+    --white: rgb(255,255,255);
+    --blue: rgba(0, 13, 255);
+    --bluel: rgb(62, 126, 254);
+    --grayl: rgba(0, 0, 0, 0.1);
+    --gray: rgb(128, 128, 128);
+}
+
+header{
+    padding: 2px 10px 2px 10px;
+    border-bottom: 1px solid var(--grayl);
+    background-color: var(--white);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+main{
+    margin-top: 14%;
+    margin-bottom: 14%;
+}
+
+footer{
+    border-top: 1px solid var(--grayl);
+    bottom: 0;
+    background-color: var(--white);
+    position: fixed;
+    width: 100%;
+}
+
+.line{
+    border-bottom: 1px solid var(--grayl);
+}
+
+.link{
+    text-decoration: none;
+}
+
+.df{
+    display: flex;
+    width: 100%;
+}
+
+.dfm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkdes{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headeardiv{
+    display: flex;
+}
+
+#nameig{
+    display: flex;
+}
+
+#igname{
+    height: 40px;
+    width: 100px;
+}
+
+#log{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5%;
+    padding-right: 5%;
+}
+
+#login{
+    color: var(--bluel);
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+#openapp{
+    color: var(--white);
+    text-decoration: none;
+    text-decoration-color: var(--white);
+    padding: 8px 15px 8px 15px;
+    background-color: var(--bluel);
+    border-radius: 7px;
+    font-family: "Ubuntu";
+    font-weight: 450;
+}
+
+#profile{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#namedesc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#left{
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+#perfilimg{
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+}
+
+#right{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#fullname{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#name{
+    font-size: 130%;
+    font-family: Arial, "Lato";
+}
+
+#tick{
+    height: 15px;
+    width: 15px;
+}
+
+#but2{
+    display: flex;
+    gap: 5px;
+}
+
+.but{
+    font-family: Arial, "Lato";
+    font-weight: 600;
+    border: none;
+    background-color: var(--grayl);
+    border-radius: 7px;
+    padding: 10px;
+}
+
+#partdown{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+#descr1{
+    display: none;
+}
+
+#descr2{
+    padding-top: 18px;
+    padding-left: 20px;
+    font-size: small;
+}
+
+.descrip{
+    font-family: Arial, "Lato";
+
+}
+
+#figpu{
+    color: var(--gray);
+    font-family: Arial, "Lato";
+}
+
+#destacadas{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.destacada{
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    border: 1px solid var(--grayl);
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.nmdestacada{
+    color: var(--black);
+    font-family: Arial, "Lato";
+    font-size: smaller;
+}
+
+#numbers{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.letnum{
+    color: var(--gray);
+    font-family: Arial, "Lato";
+    font-size: small;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.letter{
+    display: none;
+}
+
+#imgprin{
+    opacity: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid var(--black);
+}
+
+.imgsec{
+    opacity: 0.4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#published{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 0.5%;
+}
+
+.imgpu{
+    width: 33%;
+    height: 33vw;
+    margin-bottom: 0.5%;
+}
+
+#iconsdown{
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    gap: 100px;
+}
+
+.icondown{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px){
+
+    .df{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    #namedesc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    #left{
+        display: flex;
+        justify-content: center;
+        margin-left: 3%;
+        margin-right: 5%;
+    }
+    
+    #perfilimg{
+        border-radius: 100%;
+        height: 80px;
+        width: 80px;
+    }
+    
+    #right{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    #fullname{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    
+    #name{
+        font-size: 130%;
+        font-family: Arial, "Lato";
+    }
+    
+    #tick{
+        height: 15px;
+        width: 15px;
+    }
+    
+    #but2{
+        display: flex;
+        gap: 5px;
+    }
+    
+    .but{
+        font-family: Arial, "Lato";
+        font-weight: 600;
+        border: none;
+        background-color: var(--grayl);
+        border-radius: 7px;
+        padding: 10px;
+    }
+    
+    #partdown{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    #descr1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #descr2{
+        display: none;
+    }
+    
+    #descr{
+        padding-top: 18px;
+        padding-left: 20px;
+        font-size: small;
+    }
+    
+    .descrip{
+        font-family: Arial, "Lato";
+    
+    }
+    
+    #figpu{
+        color: var(--gray);
+        font-family: Arial, "Lato";
+    }
+}
